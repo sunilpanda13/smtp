@@ -23,7 +23,11 @@ To start the server
 ```
 node app.js
 ```
-  
+If you have nodemon installed globally you can use
+```
+nodemon app
+```
+
 ## API Reference
 
 #### Get all items
@@ -36,4 +40,3 @@ GET /api/mail
     "html" : "HTML code"
 }
 ```
-  
